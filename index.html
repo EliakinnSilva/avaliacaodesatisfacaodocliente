@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação de Satisfação</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Avaliação de Satisfação do Cliente</h1>
+  <div id="questionContainer">
+    <div class="question">
+      <p>1. Como você avalia a qualidade do atendimento?</p>
+      <div>
+        <label>
+          <input type="radio" name="atendimento" value="5"> Excelente
+        </label>
+        <label>
+          <input type="radio" name="atendimento" value="4"> Muito Bom
+        </label>
+        <label>
+          <input type="radio" name="atendimento" value="3"> Bom
+        </label>
+        <label>
+          <input type="radio" name="atendimento" value="2"> Regular
+        </label>
+        <label>
+          <input type="radio" name="atendimento" value="1"> Ruim
+        </label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>2. Em uma escala de 1 a 5, o quão satisfeito você está com a variedade de produtos?</p>
+      <input type="number" name="satisfacaoVariedade" min="1" max="5">
+    </div>
+
+    <div class="question">
+      <p>3. Qual é a probabilidade de você recomendar nossa loja a um amigo ou colega?</p>
+      <div>
+        <label>
+          <input type="radio" name="recomendacao" value="5"> Muito Provável
+        </label>
+        <label>
+          <input type="radio" name="recomendacao" value="4"> Provável
+        </label>
+        <label>
+          <input type="radio" name="recomendacao" value="3"> Neutro
+        </label>
+        <label>
+          <input type="radio" name="recomendacao" value="2"> Improvável
+        </label>
+        <label>
+          <input type="radio" name="recomendacao" value="1"> Muito Improvável
+        </label>
+      </div>
+    </div>
+
+    <!-- Adicione mais perguntas aqui -->
+    <!-- Pergunta 4 -->
+    <div class="question">
+      <p>4. Como você avalia o tempo de espera no caixa?</p>
+      <div>
+        <label>
+          <input type="radio" name="tempoCaixa" value="5"> Muito Rápido
+        </label>
+        <label>
+          <input type="radio" name="tempoCaixa" value="4"> Rápido
+        </label>
+        <label>
+          <input type="radio" name="tempoCaixa" value="3"> Aceitável
+        </label>
+        <label>
+          <input type="radio" name="tempoCaixa" value="2"> Lento
+        </label>
+        <label>
+          <input type="radio" name="tempoCaixa" value="1"> Muito Lento
+        </label>
+      </div>
+    </div>
+
+    <!-- Pergunta 5 -->
+    <div class="question">
+      <p>5. Como você avalia a organização e limpeza da loja?</p>
+      <div>
+        <label>
+          <input type="radio" name="organizacaoLimpeza" value="5"> Muito Organizada e Limpa
+        </label>
+        <label>
+          <input type="radio" name="organizacaoLimpeza" value="4"> Organizada e Limpa
+        </label>
+        <label>
+          <input type="radio" name="organizacaoLimpeza" value="3"> Aceitável
+        </label>
+        <label>
+          <input type="radio" name="organizacaoLimpeza" value="2"> Desorganizada ou Suja
+        </label>
+        <label>
+          <input type="radio" name="organizacaoLimpeza" value="1"> Muito Desorganizada ou Suja
+        </label>
+      </div>
+    </div>
+
+    <!-- Pergunta 6 -->
+    <div class="question">
+      <p>6. Qual é a probabilidade de você voltar a fazer compras em nossa loja?</p>
+      <div>
+        <label>
+          <input type="radio" name="probabilidadeCompra" value="5"> Muito Provável
+        </label>
+        <label>
+          <input type="radio" name="probabilidadeCompra" value="4"> Provável
+        </label>
+        <label>
+          <input type="radio" name="probabilidadeCompra" value="3"> Neutro
+        </label>
+        <label>
+          <input type="radio" name="probabilidadeCompra" value="2"> Improvável
+        </label>
+        <label>
+          <input type="radio" name="probabilidadeCompra" value="1"> Muito Improvável
+        </label>
+      </div>
+    </div>
+
+    <!-- Pergunta 7 -->
+    <div class="question">
+      <p>7. Como você avalia a disponibilidade de produtos que você estava procurando?</p>
+      <div>
+        <label>
+          <input type="radio" name="disponibilidadeProdutos" value="5"> Sempre Disponíveis
+        </label>
+        <label>
+          <input type="radio" name="disponibilidadeProdutos" value="4"> Geralmente Disponíveis
+        </label>
+        <label>
+          <input type="radio" name="disponibilidadeProdutos" value="3"> Às Vezes Disponíveis
+        </label>
+        <label>
+          <input type="radio" name="disponibilidadeProdutos" value="2"> Raramente Disponíveis
+        </label>
+        <label>
+          <input type="radio" name="disponibilidadeProdutos" value="1"> Nunca Disponíveis
+        </label>
+      </div>
+    </div>
+
+    <!-- Pergunta 8 -->
+    <div class="question">
+      <p>8. Como você avalia a clareza das informações sobre promoções e descontos?</p>
+      <div>
+        <label>
+          <input type="radio" name="clarezaPromocoes" value="5"> Muito Clara
+        </label>
+        <label>
+          <input type="radio" name="clarezaPromocoes" value="4"> Clara
+        </label>
+        <label>
+          <input type="radio" name="clarezaPromocoes" value="3"> Aceitável
+        </label>
+        <label>
+          <input type="radio" name="clarezaPromocoes" value="2"> Pouco Clara
+        </label>
+        <label>
+          <input type="radio" name="clarezaPromocoes" value="1"> Muito Pouco Clara
+        </label>
+      </div>
+    </div>
+
+    <!-- Pergunta 9 -->
+    <div class="question">
+      <p>9. Você encontrou facilmente o que estava procurando?</p>
+      <div>
+        <label>
+          <input type="radio" name="facilidadeBusca" value="5"> Muito Facilmente
+        </label>
+        <label>
+          <input type="radio" name="facilidadeBusca" value="4"> Facilmente
+        </label>
+        <label>
+          <input type="radio" name="facilidadeBusca" value="3"> Aceitável
+        </label>
+        <label>
+          <input type="radio" name="facilidadeBusca" value="2"> Dificilmente
+        </label>
+        <label>
+          <input type="radio" name="facilidadeBusca" value="1"> Muito Dificilmente
+        </label>
+      </div>
+    </div>
+
+    <!-- Pergunta 10 -->
+    <div class="question">
+      <p>10. Você tem algum comentário adicional ou sugestão para aprimorarmos nossos serviços?</p>
+      <textarea name="comentariosAdicionais" rows="4"></textarea>
+    </div>
+
+    <div class="question" id="thankYou">
+      <p>Obrigado por nos fornecer seu feedback!</p>
+    </div>
+  </div>
+  <button type="button" class="nextBtn">Próxima Pergunta</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

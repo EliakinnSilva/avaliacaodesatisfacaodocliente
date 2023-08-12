@@ -1,0 +1,75 @@
+  /* Reset de Estilos para garantir consistência */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Estilo para o corpo da página */
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Estilo para o cabeçalho */
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  /* Estilo para a área de perguntas */
+  #questionContainer {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Estilo para cada pergunta */
+  .question {
+    display: none;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Estilo para o botão de próxima pergunta */
+  .nextBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .nextBtn:hover {
+    background-color: #b8040c;
+  }
+
+  /* Estilo para o campo de entrada de número */
+  input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 60px;
+  }
+
+  /* Estilo para o campo de texto */
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
